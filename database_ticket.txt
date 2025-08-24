@@ -1,0 +1,19 @@
+**JIRA Number:** EGRC-5678
+**Ticket Type:** Task
+**Title:** Update Database Schema for User Profiles
+
+**Description:**
+Enhance the existing `users` table to support new profile features. This includes adding columns for profile picture URL and contact details. Also, create an audit table to track profile changes.
+
+**Acceptance Criteria:**
+1. Add `profile_picture_url` (VARCHAR 255) column in `users` table.
+2. Add `contact_number` (VARCHAR 20) column in `users` table.
+3. Create a new table `user_profile_audit` with fields: `audit_id`, `user_id`, `changed_field`, `old_value`, `new_value`, `changed_at`.
+4. Update existing migration scripts to reflect changes.
+5. Test migrations on staging database.
+
+**Priority:** Medium
+**Assignee:** Seema Vishwas
+**Status:** To Do
+**Sprint:** Sprint 12
+**Story Points:** 3

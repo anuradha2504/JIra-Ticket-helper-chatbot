@@ -1,0 +1,21 @@
+**JIRA Number:** EGRC-1234
+**Ticket Type:** Story
+**Title:** Develop User Profile Page (Frontend)
+
+**Description:**
+Create a responsive user profile page that displays user information (name, email, profile picture, and contact details). The page should also allow users to edit their profile details.
+
+**Acceptance Criteria:**
+1. User profile page is accessible from the navigation menu.
+2. Displays user information fetched from the backend API.
+3. “Edit Profile” button allows modification of name, email, and contact details.
+4. Profile picture upload functionality with preview.
+5. Mobile and desktop responsive layout.
+6. Loading spinner while fetching data.
+
+**Priority:** High
+**Assignee:** Tusar Kumar
+**Status:** In Progress
+**Progress:** 60% complete (UI completed, integration with backend pending).
+**Sprint:** Sprint 12
+**Story Points:** 5
