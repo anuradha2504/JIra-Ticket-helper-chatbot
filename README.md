@@ -45,7 +45,7 @@ flowchart TD
 
 ### 1) Clone Repository
 ```bash
-git clone https://github.com/your-repo/jira-ticketing-chatbot.git
+git clone https://github.com/anuradha2504/JIra-Ticket-helper-chatbot
 cd jira-ticketing-chatbot
 ```
 
