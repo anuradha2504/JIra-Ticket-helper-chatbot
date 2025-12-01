@@ -103,4 +103,4 @@ n8n start
 ---
 
 # 👨‍💻 Author
-Built by **Your Name** using automation, AI, and Jira API integrations.
+Built by **Annuradha Kumari** using automation, AI, and Jira API integrations.
